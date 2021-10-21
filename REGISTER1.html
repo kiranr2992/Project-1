@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+
+    <title>Internet Banking</title>
+  </head>
+  <style>
+ body
+	  {
+	    background-color:#aeced6;
+	  }
+      img.avatar {
+        width: 7%;
+        border-radius:7%;}
+	  </style>
+  <body>
+  <header class="text-gray-600 body-font" style="background-color: rgb(88, 188, 235);">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </svg>
+      <a class="ml-3 text-xl"href="main1.html">Internet Banking</a>
+    </a>
+    <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+        <a class="mr-5 hover:text-gray-900" href="INDEX.html">Home</a>
+        <a class="mr-5 hover:text-gray-900" href="SERVICES1.html">Services</a>
+        <a class="mr-5 hover:text-gray-900"href="HowDo1.html">How Do?</a>
+        <a class="mr-5 hover:text-gray-900"href="REGISTER1.html">Register</a>
+        <a class="mr-5 hover:text-gray-900"href="AboutUs1.html">About Us</a>
+    </nav>
+    
+  </div>
+</header>
+
+<!--Step 1 : Adding HTML-->
+
+    <center>
+        <div class="imgcontainer">
+        <img src=
+  "logo.png" 
+             alt="Avatar" class="avatar">
+    </div>
+    </center>
+
+<br>
+<div class="header">
+    <center>
+        <form action="details1.php" method="POST" >
+            <table border="0">
+                <tr>
+                    <th>
+                        Name
+                    </th>
+                        <td>
+                            <input type="text" name="Name" placeholder="enter your name">
+                        </td>
+                </tr>
+                <tr>
+                    <th>
+                        Surname
+                    </th>
+                    <td>
+                        <input type="text" name="Surname" placeholder="enter your surname">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <th>
+                        Password
+                    </th>
+                    <td>
+                        <input type="password" name="Password">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <th>
+                        Address
+                    </th>
+                    <td>
+                        <textarea rows="5"  cols="25"  name="Address">
+                        </textarea>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <th>
+                        Mobile
+                    </th>
+                    <td>
+                        <input type="number" name="Mobile" value="Mobile">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <th>
+                        DOB
+                    </th>
+                    <td>
+                        <input type="date" name="DOB" value="DOB">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <th>
+                        service
+                    </th>
+                    <td>
+                        <input type="text" name="service" placeholder="bill Pay/trasfer...">
+                    </td>
+                </tr>
+                
+                <tr>
+                    <th>
+                        bank
+                    </th>
+                    <td>
+                        <input type="checkbox" name="bank" value="SBI">SBI
+                        <input type="checkbox" name="bank" value="BOB">BOB
+                        <input type="checkbox" name="bank" value="BOI">BOI
+                        <br>
+                        <input type="checkbox" name="bank" value="ICICI">ICICI
+                        <input type="checkbox" name="bank" value="HDFC">HDFC
+                    </td>
+                </tr>
+                
+                <tr>
+                    <th>
+                        Gender
+                    </th>
+                    <td>
+                        <input type="radio" name="Gender" value="Male">Male
+                        <input type="radio" name="Gender" value="Female">Female
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <input type="submit">
+                    
+                        <button type="reset" value="Reset"> <b>Reset</b> </button>
+                    </td>
+                </tr>
+                
+            </table>
+        </form>
+    </center>
+    </div>
+    <br>
+    <h3>
+    <center>
+        <b><a href="view1.html"><u>View your details </u></a></b>
+    </center>
+    </h3>
+    </body>
+</html>]
