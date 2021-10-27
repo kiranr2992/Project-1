@@ -19,29 +19,24 @@
 	    background-color:#aeced6;
 	  }
 
-	.materials
+	   img.avatar {
+        width: 55%;
+        border-radius:50%;
+    }
+    table, th, td 
 	{
-		background-color:rgb(44, 228, 90);
-		text-align:center;
-		color:rgb(143, 18, 18);
-		border: 10px solid rgb(228, 224, 10);
-		height:150px;
-		width:250px;
-		margin-top:45px;
-		margin-left:580px;
-		padding:20px;
-	}
-	
+  	border: 1px solid rgb(247, 242, 242);	
+  	border-collapse: collapse;
+	} 
+
 	  </style>
   <body>
 
   <header class="text-gray-600 body-font" style="background-color: rgb(88, 188, 235);">
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-coin" viewBox="0 0 16 16">
-        <path d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9H5.5zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518l.087.02z"/>
-        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-        <path d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
       </svg>
       <a class="ml-3 text-xl"href="main1.html">Internet Banking</a>
     </a>
@@ -52,13 +47,18 @@
 		<a class="mr-5 hover:text-gray-900"href="REGISTER1.html">Register</a>
 		<a class="mr-5 hover:text-gray-900"href="AboutUs1.html">About Us</a>
     </nav>
-    
+    <div class="imgcontainer">
+        <img src=
+  "logo.png" 
+             alt="Avatar" class="avatar">
+    </div>
 	  </div>
+
 </header>
-<div class="materials">
+
 <center>
 <a href="main1.html"><b><u> Home</u></b> </a> &nbsp;
-	<table border="1">
+	<table border="1" width="270" height="170" bordercolor="blue" bgcolor="#4CB5F5">
 		<tr>
 			<th>
 				Services
@@ -69,7 +69,7 @@
 		</tr>
 		<tr>
 			<td>
-				PDF(1)
+				PDF1
 			</td>
 			<td>
 				<a href="e-banking.pdf"> Click Here </a>
@@ -77,7 +77,7 @@
 		</tr>
 		<tr>
 			<td>
-				PDF(2)
+				PDF2
 			</td>
 			<td>
 				<a href="list_banks.pdf"> Click Here </a>
@@ -85,10 +85,10 @@
 		</tr>
 	</table>
 </center>
-</div>
+
 <br>
 <center>
-<img src="https://source.unsplash.com/1600x900/?bank,money" height="400" width="1400">
+<img src="https://source.unsplash.com/1600x900/?money,bank" height="400" width="1400">
 </center>
 </body>
 </html>
